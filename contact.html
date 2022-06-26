@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Christopher Deleon -->
+<html lang="en">
+<head>
+	<title>Contact Us - Locaion | Forward Fitness Club</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/styles.css">
+	<meta name="description" content="Forward Fitness Club provides a complimentary one-week trial membership. Contact us today to learn more.">
+	<link href="https://fonts.googleapis.com/css2?family=Francois+One&family=Roboto+Slab&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="images/png" sizes="32x32" href="images/favicon-32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+</head>
+<body>
+
+	<div id="container">
+	
+	<!-- Mobile Nav --> 
+		<nav class="mobile-nav">
+			<div id="menu-links">
+				<a href="index.html">Home</a>
+				<a href="about.html">About Us</a>
+				<a href="classes.html">Classes</a>
+				<a href="nutrition.html">Nutrition</a>
+				<a href="contact.html">Contact Us</a>
+			</div>
+			<a class="menu-icon" onclick="hamburger()">
+				<div>&#9776;</div>
+			</a>
+		</nav>
+
+		<!-- Use the header area for the website name or logo -->
+		<header id="ffc-logo">
+			<a href="index.html"><img src="images/forward-fitness-logo.png" alt="Forward Fitness Club logo"></a>
+		</header>
+
+		<!-- Tablet, Desktop Nav -->
+		<nav class="tablet-desktop">
+			<ul>
+				<li><a href="index.html">Home</a></li> 
+				<li><a href="about.html">About Us</a></li> 
+				<li><a href="classes.html">Classes</a></li> 
+				<li><a href="nutrition.html">Nutrition</a></li> 
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+		
+		<!-- Use the main area to add the main content of the webpage -->
+		<main>
+		
+		<div id="contact">
+		
+			<h2>Ready to get started? Contact us today.</h2>
+			<h4 class="mobile tel-link"><a href="tel:9560532957">(+91) 9560532957,98737 60967</a></h4>
+			<h4 class="tablet-desktop tel-num">(+91) 9560532957,98737 60967</h4>
+			<h4>Email us: <a href="mailto:chandankumal.harshbhist@club.net" class="contact-email-link">chandankumal.harshbhist@club.net</a></h4>
+			<h3 class="offer" onclick="discount()" id="special">View Promo Code</h3>
+			<h4>Visit us at: 1275 Channel Center Street, Boston MA 02210</h4>
+			
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.8517431413866!2d-71.05363384845126!3d42.34568414389889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37a7dc2b67e7b%3A0x36ec93427cd9c5f1!2sChannel%20Center%20St%2C%20Boston%2C%20MA%2002210!5e0!3m2!1sen!2sus!4v1630371822724!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" class="map"></iframe>
+		
+		</div>
+		
+		<div id="form">
+		
+			<h2>Complete the form below to begin your free trail.</h2>
+		
+		<form class="form-grid"> <!-- Start Form -->
+		
+			<fieldset>
+				<legend>Customer Information</legend>
+				<label for="fName">First Name:</label>
+				<input type="text" name="fName" id="fName" required>
+				
+				<label for="fName">Last Name:</label>
+				<input type="text" name="fName" id="lName" required>
+				
+				<label for="email">Email:</label>
+				<input type="email" name="email" id="email" required>
+				
+				<label for="phone">Phone:</label>
+				<input type="tel" id="phone" name="phone" required>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Additional Information</legend>
+				<p>I would like more information about:</p>
+				
+				<label for="grpfit"><input type="checkbox" name="interest" id="grpfit" value="Group Fitness">Group Fitness</label>
+				
+				<label for="prtrain"><input type="checkbox" name="interest" id="prtrain" value="Personal Training">Personal Training</label>
+				
+				<label for="nutr"><input type="checkbox" name="interest" id="nutr" value="Nutrition">Nutrition</label>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Referral Source</legend>
+				<label for="reference">How did you find us easily?</label>
+				<select name="reference" id="reference">
+					<option value="ad">Advertisement</option>
+					<option value="friend">Friend</option>
+					<option value="google">Google</option>
+					<option value="social">Social Media/source</option>
+					<option value="other">Other</option>
+				</select>
+				
+				<label for="questions">Questions?</label>
+				<textarea id="questions" name="questions" rows="5" cols="35"></textarea>
+				
+				<label for="promo">Promo Code:</label>
+				<input type="text" id="promo" name="promo">
+			</fieldset>
+			
+			<input type="submit" id="submit" value="Submit" class="btn">
+			
+		</main>
+		
+		<!-- Use the footer area to add webpage footer content -->
+		<footer>
+		
+			<div class="copyright">
+				<p>&copy; Copyright 2022. All Rights Reserved.</p>
+				<p><a href="mailto:chandankumal.harshbhist@club.net">chandankumal.harshbhist@club.net</a></p>
+			</div>
+			
+			<div class="social">
+				<a href="https://www.facebook.com/chandankumal97" target="_blank"><img src="images/facebook-logo.png" alt="black and white Facebook logo"></a>
+				<a href="https://twitter.com/oscar_harry_sir" target="_blank"><img src="images/twitter-logo.png" alt="black and white Twitter logo"></a>
+			</div>
+			
+		</footer>
+	
+	</div>
+	
+	<script src="scripts/script.js"></script>
+	
+</body>
+</html>
